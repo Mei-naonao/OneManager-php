@@ -701,7 +701,7 @@ class Googledrive {
                 </div>
         </div>
         <br>';
-        if ($_SERVER['language']=='zh-cn') $html .= '你要理解 scfonedrive.github.io 是github上的静态网站，<br><font color="red">除非github真的挂掉</font>了，<br>不然，稍后你如果连不上，请检查你的运营商或其它“你懂的”问题！<br>';
+        if ($_SERVER['language']=='zh-cn') $html .= 'You should know scfonedrive.github.io is static website on github，<br><font color="red">Unless github really hangs up</font>了，<br>Otherwise, if you can not connect later, please check your carrier or other problems!<br>';
         $html .='
         <input type="submit" value="' . getconstStr('Submit') . '">
     </form>
